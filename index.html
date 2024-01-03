@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="/check.png" alt="logo" />
+      <a href="/2024-plans.html"><button>2022 Planları</button></a>
+      <a href="/2023-plans.html"><button>2023 Planları</button></a>
+      <a href="/2022-plans.html"><button>2024 Planları</button></a>
+    </div>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          Yapılacaklar Listesi
+          <img src="obsession.gif" alt="focus" />
+        </h2>
+        <div class="row" id="input-container">
+          <input type="text" id="input-box" />
+          <label id="input-label" for="input-box"
+            >Hadi Yapılacakları Ekleyelim!</label
+          >
+          <button class="add">Ekle</button>
+        </div>
+        <ul id="list-container">
+          <li class="checked">Task1</li>
+          <li>Task2</li>
+          <li>Task3</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
